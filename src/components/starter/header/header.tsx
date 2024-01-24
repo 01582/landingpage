@@ -1,7 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { QwikLogo } from "../icons/qwik";
 import styles from "./header.module.css";
-import { NavAnimm } from "~/integrations/react/React";
 
 export default component$(() => {
  
