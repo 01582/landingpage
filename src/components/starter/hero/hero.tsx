@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import styles from "./hero.module.css"
 import { ReactPage } from "~/integrations/react/React";
-export const HeroPage = component$((props) => {
+export const HeroPage = component$(() => {
  
 
   return (
