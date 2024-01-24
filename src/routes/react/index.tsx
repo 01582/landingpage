@@ -3,9 +3,6 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { ReactPage } from "~/integrations/react/React";
 
 export default component$(() => {
-  const show = useSignal(false);
-  const count = useSignal(0);
-  const variant = useSignal<"contained" | "outlined" | "text">("contained");
 
   return (
     <>
@@ -19,5 +16,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Qwik React",
+  title: "React Page",
 };
