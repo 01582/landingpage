@@ -1,0 +1,690 @@
+import { component$ } from "@builder.io/qwik";
+import styles from "./landingpaged.module.css";
+export default component$(() => {
+    return (
+        <>
+                
+    <div class="landing-pagedesktop">
+      <section class="popular-section">
+        <div class="wrapper-pattern-parent">
+          <div class="wrapper-pattern">
+            <img class={styles.pattern-icon} alt="" src="/pattern.svg" />
+          </div>
+          <header class={styles.buttonghost-parent}>
+            <div class={styles.buttonghost}>
+              <b class={styles.book-15-min-call}>Contact</b>
+            </div>
+            <div class={styles.buttonghost1}>
+              <b class="book-15-min-call1">Privacy Policy</b>
+            </div>
+            <div class="buttonghost2">
+              <b class="book-15-min-call2">Exolore</b>
+            </div>
+            <div class="buttonghost3">
+              <b class="book-15-min-call3">Pricing</b>
+            </div>
+          </header>
+          <div class="text">
+            <div class="text1">
+              <h1 class="ignite-your-potential">
+                Ignite Your Potential: Personalized Tuition That Gets Results
+              </h1>
+              <h3 class="we-help-students">
+                We help students to achieve their academic goals.
+              </h3>
+            </div>
+            <div class="check-box">
+              <button class="buttonfilled">
+                <b class="book-15-min-call4">Book Meeting</b>
+              </button>
+              <div class="sand-clock-parent">
+                <img
+                  class="sand-clock-icon"
+                  loading="eager"
+                  alt=""
+                  src="/sandclock.svg"
+                />
+                <b class="sat-sun">Sat-Sun</b>
+              </div>
+            </div>
+          </div>
+          <div class="carousel">
+            <div class="card-parent">
+              <div class="card">
+                <div class="wrapper-pic">
+                  <img
+                    class="pic-icon"
+                    loading="eager"
+                    alt=""
+                    src="/pic@2x.png"
+                  />
+                </div>
+              </div>
+              <div class="card1">
+                <textarea class="pic" rows={13} cols={17} />
+              </div>
+              <div class="card2">
+                <div class="pic1" />
+              </div>
+            </div>
+            <button class="buttonvibrant">
+              <b class="book-15-min-call5">Recent Events</b>
+            </button>
+          </div>
+        </div>
+        <div class="value-proposition">
+          <div class="wrapper-pattern1">
+            <img class="pattern-icon1" alt="" src="/pattern-1.svg" />
+          </div>
+          <div class="raza-ansari-wrapper">
+            <b class="raza-ansari">Raza Ansari</b>
+          </div>
+          <div class="f-a-qs-section">
+            <div class="pattern-frame">
+              <h1 class="unlocking-academic-success">
+                Unlocking Academic Success
+              </h1>
+              <div class="with-a-thepathshala">
+                With a thepathshala tuition class, you'll get stress-free
+                success in your academic goal
+              </div>
+            </div>
+            <div class="feature-list">
+              <div class="cardvalue-proposition">
+                <img
+                  class="icontop"
+                  loading="eager"
+                  alt=""
+                  src="/icontop.svg"
+                />
+                <div class="text-content">
+                  <b class="top-quality">Top Quality</b>
+                  <div class="a-design-wizard">
+                    We Provide the beat quality education over 70% students
+                    satisfied
+                  </div>
+                </div>
+              </div>
+              <div class="cardvalue-proposition1">
+                <img
+                  class="iconfast"
+                  loading="eager"
+                  alt=""
+                  src="/iconfast.svg"
+                />
+                <div class="top-quality-parent">
+                  <b class="top-quality1">Super Speedy</b>
+                  <div class="a-design-wizard-container">
+                    <p class="learn-at-faster">
+                      Learn at faster speed with
+                    </p>
+                    <p class="rigorous-confirmation">
+                      rigorous confirmation
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="cardvalue-proposition2">
+                <img
+                  class="iconflat"
+                  loading="eager"
+                  alt=""
+                  src="/iconflat.svg"
+                />
+                <div class="top-quality-group">
+                  <b class="top-quality2">Affordable fees</b>
+                  <div class="a-design-wizard1">
+                    No more hidden fees or surprise charges - you'll pay the
+                    exact same amount every single month.
+                  </div>
+                </div>
+              </div>
+              <div class="cardvalue-proposition3">
+                <img
+                  class="iconflexible"
+                  loading="eager"
+                  alt=""
+                  src="/iconflexible.svg"
+                />
+                <div class="top-quality-container">
+                  <b class="top-quality3">Ace your exams</b>
+                  <div class="a-design-wizard-container1">
+                    <p class="master-in-examination">
+                      Master in examination of science
+                    </p>
+                    <p class="math">{`& math`}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cardvalue-proposition4">
+                <img
+                  class="icontrello"
+                  loading="eager"
+                  alt=""
+                  src="/icontrello.svg"
+                />
+                <div class="frame-div">
+                  <b class="top-quality4">Events</b>
+                  <div class="a-design-wizard2">
+                    We hosted an enjoyable events in every year
+                  </div>
+                </div>
+              </div>
+              <div class="cardvalue-proposition5">
+                <img
+                  class="iconguard"
+                  loading="eager"
+                  alt=""
+                  src="/iconguard.svg"
+                />
+                <div class="top-quality-parent1">
+                  <b class="top-quality5">Money-back guarantee</b>
+                  <div class="a-design-wizard3">
+                    We're pretty sure this won't happen, but if it doesn't
+                    tickle your fancy within a week, we'll gladly give your
+                    money back!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <div class="f-a-qs-header">
+          <h1 class="how-does-thepathshala">How does Thepathshala work?</h1>
+          <div class="tailored-learning-with">
+            Tailored learning with ease: Demystifying Thepathshala's
+            personalized approach.
+          </div>
+        </div>
+        <div class="pricing-elements">
+          <div class="cardhow-it-works">
+            <img
+              class="keegan-houser-fpcb3km7pye-unsp-icon"
+              loading="eager"
+              alt=""
+              src="/keeganhouserfpcb3km7pyeunsplash-1@2x.png"
+            />
+          </div>
+          <div class="pricing-element-check">
+            <h3 class="fundamentals">Fundamentals</h3>
+            <div class="we-believe-that">
+              we believe that true mastery begins with a rock-solid foundation.
+              That's why our Fundamentals program focuses on deeply ingrained
+              learning, tailoring content to fit seamlessly into your long-term
+              memory
+            </div>
+          </div>
+        </div>
+        <div class="pricing-elements1">
+          <div class="working-on-scrupulous-parent">
+            <h3 class="working-on-scrupulous">{`Working on scrupulous `}</h3>
+            <div class="we-believe-quality">
+              we believe quality trumps quantity. That's why our learning
+              environment is built on the pillars of scrupulous accuracy,
+              meticulous guidance, and personalized support. We don't simply
+              teach; we cultivate mastery.
+            </div>
+          </div>
+          <div class="cardvalue-proposition6">
+            <div class="emphasizing-learning-parent">
+              <div class="emphasizing-learning">
+                <b class="path-1">Path 1</b>
+              </div>
+              <div class="graduation-level">
+                <img class="dot-icon" alt="" src="/dot.svg" />
+                <div class="freelancing-1-parent">
+                  <img
+                    class="freelancing-1-icon"
+                    alt=""
+                    src="/freelancing-1@2x.png"
+                  />
+                  <img
+                    class="iconcursor"
+                    loading="eager"
+                    alt=""
+                    src="/iconcursor.svg"
+                  />
+                  <img
+                    class="iconcursor1"
+                    alt=""
+                    src="/iconcursor-1@2x.png"
+                  />
+                </div>
+              </div>
+              <div class="reinforcing-learning">
+                <div class="path-2-wrapper">
+                  <b class="path-2">Path 2</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-elements2">
+          <div class="cardvalue-proposition7">
+            <img
+              class="cardvalue-proposition-child"
+              loading="eager"
+              alt=""
+              src="/frame-6@2x.png"
+            />
+          </div>
+          <div class="revision-parent">
+            <h3 class="revision">Revision</h3>
+            <div class="at-thepathshala-we">
+              At Thepathshala, we believe revision is an art, not a chore.
+              That's why we've crafted a unique approach that makes it
+              effective, engaging, and even enjoyable.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="what-type-of-learning-format-d">
+        <div class="cta">
+          <div class="pattern">
+            <div class="red">
+              <div class="red-child" />
+              <div class="header-frame" />
+              <div class="blue">
+                <div class="blue-child" />
+                <div class="text2">
+                  <div class="button-filled-parent">
+                    <div class="button-filled" />
+                    <h1 class="join-our-tuition">Join our tuition class</h1>
+                    <div class="experience-the-difference">
+                      Experience the difference of scrupulous learning. Join us
+                      and thrive!
+                    </div>
+                  </div>
+                  <button class="buttonfilled1">
+                    <b class="book-15-min-call6">Demo Session</b>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="a">
+        <h1 class="what-clients-say">What clients say about us</h1>
+        <div class="progressive-devising">
+          <div class="cardtestimonial">
+            <div class="collaborating-with-divadsgn-wa-parent">
+              <div class="collaborating-with-divadsgn">undefined</div>
+              <div class="availablefor-under-graduate">
+                <div class="rectangle">
+                  <img
+                    class="rectangle-child"
+                    loading="eager"
+                    alt=""
+                    src="/frame-735@2x.png"
+                  />
+                  <div class="mo">
+                    <div class="pauseorcancelanytime">
+                      <b class="jason">Rakesh</b>
+                      <b class="dom">K</b>
+                    </div>
+                    <div class="startup-founder">Student</div>
+                  </div>
+                </div>
+                <div class="guideforcareer">
+                  <img
+                    class="iconstar"
+                    loading="eager"
+                    alt=""
+                    src="/iconstar.svg"
+                  />
+                  <img class="iconstar1" alt="" src="/iconstar.svg" />
+                  <img class="iconstar2" alt="" src="/iconstar.svg" />
+                  <img class="iconstar3" alt="" src="/iconstar.svg" />
+                  <img class="iconstar4" alt="" src="/iconstar.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="howdo-igetstarted" />
+          </div>
+          <div class="cardtestimonial1">
+            <div class="collaborating-with-divadsgn-wa-group">
+              <div class="collaborating-with-divadsgn1">undefined</div>
+              <div class="frame-parent">
+                <div class="frame-group">
+                  <img
+                    class="frame-child"
+                    alt=""
+                    src="/frame-735-1@2x.png"
+                  />
+                  <div class="frame-container">
+                    <div class="jason-parent">
+                      <b class="jason1">Vikram</b>
+                      <b class="dom1">Dev</b>
+                    </div>
+                    <div class="startup-founder1">Student</div>
+                  </div>
+                </div>
+                <div class="iconstar-parent">
+                  <img class="iconstar5" alt="" src="/iconstar.svg" />
+                  <img class="iconstar6" alt="" src="/iconstar.svg" />
+                  <img class="iconstar7" alt="" src="/iconstar.svg" />
+                  <img class="iconstar8" alt="" src="/iconstar.svg" />
+                  <img class="iconstar9" alt="" src="/iconstar.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="cardtestimonial-child" />
+          </div>
+          <div class="cardtestimonial2">
+            <div class="collaborating-with-divadsgn-wa-container">
+              <div class="collaborating-with-divadsgn2">undefined</div>
+              <div class="frame-parent1">
+                <div class="frame-parent2">
+                  <img
+                    class="frame-item"
+                    alt=""
+                    src="/frame-735-2@2x.png"
+                  />
+                  <div class="frame-parent3">
+                    <div class="jason-group">
+                      <b class="jason2">Arjun</b>
+                      <b class="dom2">Kumar</b>
+                    </div>
+                    <div class="startup-founder2">undefined</div>
+                  </div>
+                </div>
+                <div class="iconstar-group">
+                  <img class="iconstar10" alt="" src="/iconstar.svg" />
+                  <img class="iconstar11" alt="" src="/iconstar.svg" />
+                  <img class="iconstar12" alt="" src="/iconstar.svg" />
+                  <img class="iconstar13" alt="" src="/iconstar.svg" />
+                  <img class="iconstar14" alt="" src="/iconstar.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="cardtestimonial-item" />
+          </div>
+        </div>
+        <div class="header">
+          <img class="iconleft" alt="" src="/iconleft.svg" />
+          <img class="iconright" alt="" src="/iconright.svg" />
+        </div>
+      </section>
+      <section class="text3">
+        <div class="rectangle1">
+          <h1 class="plans-pricing">{`Plans & Pricing`}</h1>
+          <div class="no-shady-charges-container">
+            <p class="no-shady-charges">
+              No shady charges, no unexpected shocks! Stick to one flat fee,
+              month after month.
+            </p>
+            <p class="no-money-surprises">No money surprises here!</p>
+          </div>
+        </div>
+        <div class="howcan-icontactyou">
+          <div class="basic">
+            <h3 class="school">School</h3>
+            <div class="text-parent">
+              <div class="text4">
+                <div class="only-for-5th-8th">
+                  Only for 5th-8th students
+                </div>
+                <div class="button" />
+                <div class="frame-parent4">
+                  <div class="parent">
+                    <div class="div">₹</div>
+                    <div class="mo1">
+                      <b class="b">500</b>
+                      <b class="mo2">/mo</b>
+                    </div>
+                  </div>
+                  <div class="pause-or-cancel-container">
+                    <p class="pause-or-cancel">Pause or cancel anytime.</p>
+                    <p class="days-money-back-guarantee">
+                      7 days money-back guarantee
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="core-features">
+                <div class="pricingelementsfeature-li">
+                  <input
+                    class="check"
+                    type="checkbox"
+                  />
+                  <div class="fundamentals-for-10th">
+                    Fundamentals for 10th
+                  </div>
+                </div>
+                <div class="pricingelementsfeature-li1">
+                  <input class="check1" type="checkbox" />
+                  <div class="revision1">Revision</div>
+                </div>
+                <div class="pricingelementsfeature-li2">
+                  <input class="check2" type="checkbox" />
+                  <div class="preparation-for-board">
+                    Preparation for board
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="buttonfilled2">
+              <b class="book-15-min-call7">Get Started</b>
+            </button>
+          </div>
+          <div class="premium">
+            <div class="rectangle2">
+              <div class="text-group">
+                <div class="text5">
+                  <h3 class="board">Board</h3>
+                  <button class="label">
+                    <b class="popular">popular</b>
+                  </button>
+                </div>
+                <div class="only-for-the">
+                  Only for the 9th-12th students
+                </div>
+              </div>
+              <div class="pattern1" />
+              <div class="text-container">
+                <div class="text6">
+                  <div class="div1">₹</div>
+                  <div class="mo3">
+                    <b class="b1">1,999</b>
+                    <b class="mo4">/mo</b>
+                  </div>
+                </div>
+                <div class="pause-or-cancel-container1">
+                  <p class="pause-or-cancel1">Pause or cancel anytime.</p>
+                  <p class="days-money-back-guarantee1">
+                    7 days money-back guarantee
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="core-features1">
+              <div class="pricingelementsfeature-li3">
+                <input class="check3" type="checkbox" />
+                <div class="science-commerce">Science, Commerce</div>
+              </div>
+              <div class="pricingelementsfeature-li4">
+                <input class="check4" type="checkbox" />
+                <div class="advance-prep-for">
+                  Advance Prep for Examination
+                </div>
+              </div>
+              <div class="pricingelementsfeature-li5">
+                <input class="check5" type="checkbox" />
+                <div class="progressive-devising1">
+                  Progressive Devising
+                </div>
+              </div>
+              <div class="pricingelementsfeature-li6">
+                <input class="check6" type="checkbox" />
+                <div class="emphasizing-learning1">
+                  Emphasizing learning
+                </div>
+              </div>
+            </div>
+            <button class="buttonfilled3">
+              <b class="book-15-min-call8">Get Started</b>
+            </button>
+          </div>
+          <div class="premium-plus">
+            <div class="graduation-frame">
+              <h3 class="graduation">Graduation +</h3>
+              <div class="available-for-undergraduate-parent">
+                <div class="available-for-undergraduate">
+                  Available for UnderGraduate
+                </div>
+                <div class="frame-inner" />
+                <div class="frame-parent5">
+                  <div class="group">
+                    <div class="div2">₹</div>
+                    <div class="mo5">
+                      <b class="b2">5,499</b>
+                      <b class="mo6">/mo</b>
+                    </div>
+                  </div>
+                  <div class="pause-or-cancel-container2">
+                    <p class="pause-or-cancel2">Pause or cancel anytime.</p>
+                    <p class="days-money-back-guarantee2">
+                      7 days money-back guarantee
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="core-features2">
+              <div class="pricingelementsfeature-li7">
+                <input class="check7" type="checkbox" />
+                <div class="reinforcing-learning1">
+                  Reinforcing Learning
+                </div>
+              </div>
+              <div class="pricingelementsfeature-li8">
+                <input class="check8" type="checkbox" />
+                <div class="all-the-necessary">
+                  All the necessary examination included
+                </div>
+              </div>
+              <div class="pricingelementsfeature-li9">
+                <input class="check9" type="checkbox" />
+                <div class="guide-for-career">Guide for career</div>
+              </div>
+              <div class="pricingelementsfeature-li10">
+                <input class="check10" type="checkbox" />
+                <div class="daily-revision">Daily Revision</div>
+              </div>
+            </div>
+            <button class="buttonfilled4">
+              <b class="book-15-min-call9">Get Started</b>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="faqs">
+        <div class="wrapper-pattern2">
+          <img class="pattern-icon2" alt="" src="/pattern-2.svg" />
+        </div>
+        <div class="question-list">
+          <div class="pattern-header">
+            <div class="f-a-qs-f-a-q">
+              <h1 class="frequently-asked-questions">
+                Frequently Asked Questions
+              </h1>
+              <div class="these-questions-might-container">
+                <p class="these-questions-might">{`These questions might not be on everyone's FAQ list, but we've got your `}</p>
+                <p class="back-in-case">back in case you were curious.</p>
+              </div>
+            </div>
+          </div>
+          <div class="f-a-qexpand">
+            <div class="f-a-qcontract">
+              <div class="f-a-qtitletext">01</div>
+              <div class="how-do-i">How do I get started?</div>
+              <img class="icondown" alt="" src="/icondown.svg" />
+            </div>
+            <div class="f-a-qcontentarea">
+              <div class="f-a-qseparator">
+                <div class="container">
+                  <div class="div3">02</div>
+                  <div class="what-makes-thepathshala">
+                    What makes Thepathshala different from other tutoring
+                    platforms
+                  </div>
+                  <img
+                    class="iconsarrow-up-simpleup"
+                    alt=""
+                    src="/iconsarrow-up-simpleup.svg"
+                  />
+                </div>
+              </div>
+              <div class="pattern-f-a-qsection">
+                <div class="we-utilize-personalized">
+                  We utilize personalized learning strategies and engaging
+                  methods to make learning fun and effective and provide an
+                  guidance path
+                </div>
+              </div>
+            </div>
+            <div class="f-a-qcontract1">
+              <div class="div4">03</div>
+              <div class="do-you-offer">
+                Do you offer free trial sessions?
+              </div>
+              <img class="icondown1" alt="" src="/icondown.svg" />
+            </div>
+            <div class="f-a-qcontract2">
+              <div class="div5">04</div>
+              <div class="what-type-of">
+                What type of learning format do you offer?
+              </div>
+              <img class="icondown2" alt="" src="/icondown.svg" />
+            </div>
+            <div class="f-a-qcontract3">
+              <div class="div6">05</div>
+              <div class="whats-tutor-qualification">
+                What’s tutor qualification?
+              </div>
+              <img class="icondown3" alt="" src="/icondown.svg" />
+            </div>
+            <div class="f-a-qcontract4">
+              <div class="div7">06</div>
+              <div class="how-can-i">
+                How can I be sure your tutors are reliable?
+              </div>
+              <img class="icondown4" alt="" src="/icondown.svg" />
+            </div>
+            <div class="f-a-qcontract5">
+              <div class="div8">07</div>
+              <div class="what-if-im">
+                What if I'm not satisfied with my tutor?
+              </div>
+              <img class="icondown5" alt="" src="/icondown.svg" />
+            </div>
+            <div class="f-a-qcontract6">
+              <div class="div9">08</div>
+              <div class="what-if-i">
+                What if I only need one focused subject
+              </div>
+              <img class="icondown6" alt="" src="/icondown.svg" />
+            </div>
+            <div class="f-a-qcontract7">
+              <div class="div10">09</div>
+              <div class="how-can-i1">How can I contact you?</div>
+              <img class="icondown7" alt="" src="/icondown.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="landing-pagedesktop-child" />
+    </div>
+
+
+        </>
+    )
+})
+
+
+
+
+

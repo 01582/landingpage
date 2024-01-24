@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@font-face {
+  font-family: gn;
+  src: url("/fonts/GeneralSans-Light.woff2");
+}
+nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 4vw;
+  width: 90%;
+  user-select: none;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+ 
+  font-size: 3vh;
+  font-weight: 200;
+  cursor: pointer;
+}
+h4 {
+  /* font-weight: 400; */
+  cursor: pointer;
+  font-family: 'gn', sans-serif;
+  
+}
